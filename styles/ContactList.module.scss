@@ -1,0 +1,57 @@
+.contact {
+  padding: 0;
+  margin-top: 50px;
+
+  overflow: auto;
+  border: 0.5px solid #d7d3d3;
+  border-radius: 10px;
+  background: rgb(221, 220, 220);
+}
+.li {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  padding-top: 25px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+
+  list-style-type: none;
+}
+
+.button {
+  font-size: 10px;
+  margin-left: 20px;
+}
+.contactEmoji {
+  width: 15px;
+}
+.contactfield {
+  margin-left: 50px;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.contactfieldName {
+  width: 100px;
+  text-align: left;
+  cursor: pointer;
+  margin-left: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  a {
+    text-decoration: none;
+    color: #f85454;
+  }
+}
+
+.contact-emoji {
+  font-size: 40px;
+}
+
+.buttons {
+  padding-left: 50px;
+}
